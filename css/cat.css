@@ -1,0 +1,33 @@
+body
+{
+    background-color: cornsilk;
+    text-align: center;
+}
+
+.species {
+    display:flex;
+}
+
+.cat {
+    flex:33.3%;
+    padding:5px;
+}
+
+table, th, td {
+    border: 2px solid;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    text-decoration: none;
+    color: green;
+    text-align: center;  
+}
