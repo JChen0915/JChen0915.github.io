@@ -1,11 +1,28 @@
 body
 {
-    font-family: "Comic Sans";
+    font-family: Arial,serif;
     background-color: bisque;
     text-align: center;
 }
 
-a
+a:link,a:visited
 {
-    
+    text-decoration: none;
+    text-align: center;
+}
+a:link
+{
+    color:crimson;
+
+}
+
+a:visited
+{
+
+    color:blue;
+}
+
+a:hover
+{
+    color:purple;
 }
